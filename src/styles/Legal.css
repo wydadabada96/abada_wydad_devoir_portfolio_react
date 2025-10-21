@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+main {
+  /* Empêche l'indexation */
+  meta[name="robots"] {
+    content: "noindex, nofollow";
+  }
+}
