@@ -45,9 +45,10 @@ export default function Footer() {
             <h5>Navigation</h5>
             <ul className="list-unstyled">
               <li><a href="/">Accueil</a></li>
-              <li><a href="/about">À propos</a></li>
+              <li><a href="/services">Services</a></li>
               <li><a href="/projects">Portfolio</a></li>
               <li><a href="/contact">Contact</a></li>
+              <li><a href="/legal">Mentions légales</a></li>
             </ul>
           </Col>
 
