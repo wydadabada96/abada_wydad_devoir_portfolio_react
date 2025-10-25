@@ -1,0 +1,36 @@
+
+.services-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.services-subtitle {
+  font-size: 1.1rem;
+  color: #6c757d; 
+  margin-bottom: 20px;
+}
+
+
+.services-divider {
+  width: 100px;
+  height: 4px;
+  background-color: #007bff; 
+  margin: 0 auto 30px auto; 
+  border-radius: 2px;
+}
+
+.service-card {
+  border: 1px solid #e0e0e0; 
+  box-shadow: none; 
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  color: #007bff; 
+}

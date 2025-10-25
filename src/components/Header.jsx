@@ -4,10 +4,10 @@ import "./../styles/Header.css";
 
 export default function Header() {
   return (
-    <Navbar bg="light" expand="md" sticky="top" className="shadow-sm">
+    <Navbar bg="dark" variant= "dark" expand="md" sticky="top" className="custom-dark-header shadow-lg">
       <Container>
         {/* Logo à gauche */}
-        <Navbar.Brand href="/">John Doe</Navbar.Brand>
+        <Navbar.Brand href="/" className="fw-bold text-uppercase">John Doe</Navbar.Brand>
 
         {/* Bouton hamburger sur mobile */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,8 +18,8 @@ export default function Header() {
             <NavLink to="/" className="nav-link">
               Accueil
             </NavLink>
-            <NavLink to="/about" className="nav-link">
-              À propos
+            <NavLink to="/services" className="nav-link">
+              Services
             </NavLink>
             <NavLink to="/projects" className="nav-link">
               Portfolio

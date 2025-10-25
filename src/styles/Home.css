@@ -1,37 +1,163 @@
+/* --- HERO --- */
 .hero-container {
-  background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
   position: relative;
+  overflow: hidden;
+  height: 100vh;
 }
 
-.hero-container::after {
-  content: "";
+.hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3); 
+  z-index: 0;
 }
 
 .hero-text {
   position: relative;
   z-index: 2;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .hero-text h1 {
   font-size: 3rem;
-  margin-bottom: 0.5rem;
+  font-weight: bold;
 }
 
 .hero-text h2 {
   font-size: 1.8rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* --- A PROPOS & COMPETENCES --- */
+.about-skills-section .card-bloc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.about-part,
+.skills-part {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* --- TITRES --- */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-bottom: 3px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+/* --- IMAGE A PROPOS --- */
+
+.about-img {
+  width: 100%;
+  margin: 20px 0; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* --- BARRES DE PROGRESSION --- */
+.progress {
+  margin: 0 10px 15px 0;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #e9ecef;
+}
+
+/* --- DARK MODAL --- */
+.custom-dark-modal {
+  background-color: #0f0f0f !important;
+  color: #f1f1f1 !important;
+  border: none !important;
+  border-radius: 12px;
+  box-shadow: 0 0 40px rgba(0, 0, 255, 0.25);
+  min-width: 500px;
+}
+
+.modal-dark-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #0f0f0f !important;
+  color: #f5f5f5 !important;
+}
+
+.modal-dark-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #0f0f0f !important;
+}
+
+.modal-dark-body {
+  background-color: #0f0f0f !important;
+  color: #fff !important;
+  gap: 20px;
+}
+
+/* --- IMAGE DORAEMON --- */
+.modal-image-col {
+  flex: 1;
+}
+
+.modal-doraemon-img {
+  width: 180px; 
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+  /* box-shadow: 0 0 20px rgba(0, 150, 255, 0.4); */
+}
+
+/* --- TEXTE À DROITE --- */
+.modal-info-col {
+  flex: 2;
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-info-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-info-text {
+  line-height: 1.5;
+  color: #ddd;
+}
+
+.modal-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.modal-separator {
+  border-color: rgba(255, 255, 255, 0.1);
+  margin: 8px 0;
+}
+
+/* Bouton */
+.modal-dark-footer .btn-secondary {
+  background-color: #222;
+  border: none;
+  transition: all 0.2s;
+}
+
+.modal-dark-footer .btn-secondary:hover {
+  background-color: #333;
 }
