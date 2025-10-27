@@ -52,7 +52,7 @@ export default function Services() {
         <Row xs={1} md={2} lg={3} className="g-4 mt-4">
           {services.map((service, idx) => (
             <Col key={idx}>
-              <Card className="service-card h-100 p-3 text-start">
+              <Card className="service-card h-100 p-3 text-center">
                 <Card.Body>
                   <div className="service-icon mb-3">{service.icon}</div>
                   <Card.Title className="fw-bold">{service.title}</Card.Title>

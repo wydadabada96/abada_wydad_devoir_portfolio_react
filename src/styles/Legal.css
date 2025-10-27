@@ -12,8 +12,16 @@ a:hover {
 }
 
 main {
-  /* Empêche l'indexation */
   meta[name="robots"] {
     content: "noindex, nofollow";
   }
+}
+
+.mb-4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-bottom: 3px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
 }
