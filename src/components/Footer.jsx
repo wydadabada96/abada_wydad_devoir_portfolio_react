@@ -17,7 +17,7 @@ export default function Footer() {
             </p>
             <div className="social-icons">
               <a
-                href="https://github.com/github-john-doe"
+                href="https://github.com/wydadabada96/abada_wydad_devoir_portfolio_react"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -56,9 +56,12 @@ export default function Footer() {
           <Col md={4}>
             <h5>Dernières réalisations</h5>
             <ul className="list-unstyled">
-              <li><a href="/projects">Projet 1</a></li>
-              <li><a href="/projects">Projet 2</a></li>
-              <li><a href="/projects">Projet 3</a></li>
+              <li><a href="/projects">Fresh Food</a></li>
+              <li><a href="/projects">Restaurant Akira</a></li>
+              <li><a href="/projects">Espace bien-être</a></li>
+              <li><a href="/projects">SEO</a></li>
+              <li><a href="/projects">Création d'une API</a></li>
+              <li><a href="/projects">Maquette d'un site</a></li>
             </ul>
           </Col>
         </Row>
