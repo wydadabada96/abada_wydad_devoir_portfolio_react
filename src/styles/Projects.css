@@ -19,6 +19,9 @@ h1.mb-0 {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   transition: all 0.3s ease;
   border: none;
 }
@@ -28,6 +31,14 @@ h1.mb-0 {
   background-color: #efefef;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
+}
+
+.project-card .card-title {
+  font-weight: 600; 
+}
+
+.project-card .card-body {
+  flex: 1; 
 }
 
 button.btn-primary {

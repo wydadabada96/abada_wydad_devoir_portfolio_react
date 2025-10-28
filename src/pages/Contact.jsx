@@ -14,9 +14,9 @@ export default function Contact() {
         <p className="contact-subtitle">
             Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.
         </p>
+         <div className="contact-divider"></div> 
       </div>
 
-      {/* Carte blanche englobant le formulaire et les coordonnées */}
       <Card className="contact-card shadow-sm">
         <Card.Body>
           <Row>
