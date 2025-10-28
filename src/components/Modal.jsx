@@ -8,16 +8,20 @@ export default function CustomModal({ show, handleClose, userData }) {
     <Modal
       show={show}
       onHide={handleClose}
-      centered
       backdrop="static"
-      contentClassName="custom-dark-modal"
-    >
-      <Modal.Header closeButton className="modal-dark-header">
+      contentClassName="custom-dark-modal">
+
+      <Modal.Header
+        closeButton
+        closeVariant="white" 
+        className="modal-dark-header">
+
         <Modal.Title>Mon profil GitHub</Modal.Title>
       </Modal.Header>
 
-      <Modal.Body className="modal-dark-body d-flex flex-column flex-md-row align-items-center justify-content-center">
-        {/* --- IMAGE À GAUCHE --- */}
+      <Modal.Body
+        className="modal-dark-body d-flex flex-column flex-md-row align-items-md-center justify-content-center" >
+       
         <div className="modal-image-col text-center me-md-4 mb-3 mb-md-0">
           <img src={doraemon} alt="Doraemon" className="modal-doraemon-img" />
         </div>

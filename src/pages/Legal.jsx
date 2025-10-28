@@ -11,6 +11,8 @@ export default function Legal() {
 
 
       <div className="text-center pt-5 pb-3">
+        <h1 className="legal-title">Mentions légales</h1>
+        <div className="legal-divider"></div> 
       </div>
 
       <Container className="my-5">
@@ -22,8 +24,8 @@ export default function Legal() {
             <Accordion.Body>
               <div className="mb-3">
                 <span className="fw-bold">John Doe</span><br />
-                <i className="bi bi-geo-alt"></i> 40 rue Laure Diebold<br />
-                69009 Lyon, France<br />
+                <i className="bi-map"></i> 40 rue Laure Diebold<br />
+                <i className="bi bi-geo-alt"></i> 69009 Lyon, France<br />
                 <i className="bi bi-phone"></i> 10 20 30 40 50<br />
                 <i className="bi bi-envelope"></i> john.doe@gmail.com
               </div>
@@ -49,10 +51,10 @@ export default function Legal() {
                 Ce site a été réalisé par John Doe, étudiant au <a href="https://www.centre-europeen-formation.fr" target="_blank" rel="noreferrer">Centre Européen de formation</a>.
               </p>
               <p>
-                Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com" target="_blank" rel="noreferrer">Pixabay</a>
+                <i>Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com" target="_blank" rel="noreferrer">Pixabay</a></i>
               </p>
               <p>
-                La favicon de ce site a été fournie par <a href="https://www.flaticon.com/authors/john-doe-icons-erstellt-von-freepik" target="_blank" rel="noreferrer">John doe icons erstellt von Freepik - Flaticon</a>
+                <i>La favicon de ce site a été fournie par <a href="https://www.flaticon.com/authors/john-doe-icons-erstellt-von-freepik" target="_blank" rel="noreferrer">John doe icons erstellt von Freepik - Flaticon</a></i>
               </p>
             </Accordion.Body>
           </Accordion.Item>

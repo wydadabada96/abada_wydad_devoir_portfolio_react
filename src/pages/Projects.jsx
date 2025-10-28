@@ -7,7 +7,7 @@ import SEO from "../assets/images/portfolio/seo.jpg"
 import CreationApi from "../assets/images/portfolio/coder.jpg"
 import MaquetteWeb from "../assets/images/portfolio/screens.jpg"
 
-//POUR IMPORTER LE CSS DE LA BANNIERE PRINCIPALE DANS HOME
+
 import "../styles/Home.css"; 
 import bannerImage from "../assets/images/banner.jpg"; 
 
@@ -31,8 +31,7 @@ export default function Projects() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "40vh", 
-        }}
-      >
+        }} >
         <div className="hero-overlay"></div>
       </div>
 
@@ -42,7 +41,6 @@ export default function Projects() {
         <p className="portfolio-subtitle" style={{ marginTop: "20px" }}>
             Voici quelques-unes de mes réalisations.
         </p>
-        {/* Le diviseur est un élément de type bloc qui doit être centré via margin: 0 auto; dans le CSS */}
         <div className="portfolio-divider"></div> 
       </div>
 
